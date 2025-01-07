@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|d:\\4.asp.net_danghoc\\php_coban-master\\baittap2\\kiemtradieukhien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\kiemtradieukhien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\baittap2\\kiemtradieukhien.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\kiemtradieukhien.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\baittap2\\dondathang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\dondathang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|d:\\4.asp.net_danghoc\\php_coban-master\\baittap2\\kiemtradieukhien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\kiemtradieukhien.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|d:\\4.asp.net_danghoc\\php_coban-master\\baittap2\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|d:\\4.asp.net_danghoc\\php_coban-master\\baittap2\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|d:\\4.asp.net_danghoc\\php_coban-master\\baittap2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 324,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,36 +46,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DonDatHang.aspx",
-              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\DonDatHang.aspx",
-              "RelativeDocumentMoniker": "BaitTap2\\DonDatHang.aspx",
-              "ToolTip": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\DonDatHang.aspx",
-              "RelativeToolTip": "BaitTap2\\DonDatHang.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-01-07T08:08:38.947Z"
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\Web.config",
+              "RelativeDocumentMoniker": "BaitTap2\\Web.config",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\Web.config",
+              "RelativeToolTip": "BaitTap2\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-07T17:03:04.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\Web.Release.config",
+              "RelativeDocumentMoniker": "BaitTap2\\Web.Release.config",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\Web.Release.config",
+              "RelativeToolTip": "BaitTap2\\Web.Release.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-07T17:02:28.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\Web.Debug.config",
+              "RelativeDocumentMoniker": "BaitTap2\\Web.Debug.config",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\Web.Debug.config",
+              "RelativeToolTip": "BaitTap2\\Web.Debug.config",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-07T17:02:18.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "KiemTraDieuKhien.aspx.cs",
               "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\KiemTraDieuKhien.aspx.cs",
               "RelativeDocumentMoniker": "BaitTap2\\KiemTraDieuKhien.aspx.cs",
               "ToolTip": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\KiemTraDieuKhien.aspx.cs",
               "RelativeToolTip": "BaitTap2\\KiemTraDieuKhien.aspx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA3wCQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwCoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T03:36:27.196Z"
+              "WhenOpened": "2025-01-07T03:36:27.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "KiemTraDieuKhien.aspx",
               "DocumentMoniker": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\KiemTraDieuKhien.aspx",
               "RelativeDocumentMoniker": "BaitTap2\\KiemTraDieuKhien.aspx",
-              "ToolTip": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\KiemTraDieuKhien.aspx",
-              "RelativeToolTip": "BaitTap2\\KiemTraDieuKhien.aspx",
+              "ToolTip": "D:\\4.ASP.NET_DangHoc\\PHP_CoBan-master\\BaitTap2\\KiemTraDieuKhien.aspx*",
+              "RelativeToolTip": "BaitTap2\\KiemTraDieuKhien.aspx*",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-01-07T03:25:11.897Z",

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -11,50 +8,49 @@ namespace BaitTap2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) {
+            if (!IsPostBack)
+            {
                 KhoiTaoDuLieu();
             }
         }
 
         private void KhoiTaoDuLieu()
         {
-            // khởi tạo rfvNgay
-            rfvNgay.Items.Add(new ListItem("-----Chọn Ngày----", ""));
+            // Khởi tạo dữ liệu cho DropDownList Ngày
+            rfvNgay.Items.Add(new ListItem("-----Chọn Ngày-----", ""));
             for (int i = 1; i <= 31; i++)
             {
-                rfvNgay.Items.Add(new ListItem(i.ToString(),i.ToString()));
+                rfvNgay.Items.Add(new ListItem(i.ToString(), i.ToString()));
             }
-            // khởi tạo rfvThang
-            rfvNgay.Items.Add(new ListItem("-----Chọn Tháng----", ""));
+
+            // Khởi tạo dữ liệu cho DropDownList Tháng
+            rfvThang.Items.Add(new ListItem("-----Chọn Tháng-----", ""));
             for (int i = 1; i <= 12; i++)
             {
                 rfvThang.Items.Add(new ListItem(i.ToString(), i.ToString()));
             }
-            // khởi tạo rfvNam
-            rfvNgay.Items.Add(new ListItem("-----Chọn Năm----", ""));
+
+            // Khởi tạo dữ liệu cho DropDownList Năm
+            rfvNam.Items.Add(new ListItem("-----Chọn Năm-----", ""));
             for (int i = 1970; i <= 2005; i++)
             {
                 rfvNam.Items.Add(new ListItem(i.ToString(), i.ToString()));
             }
         }
 
-        protected void rftTendn_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         protected void ButDangky_Click(object sender, EventArgs e)
         {
-            //b1. Lấy thông tin đăng kí từ client
+          
+
+            // Lấy thông tin đăng ký từ client
             string kq = "<ul>";
-            kq += $"Họ Tên : <li><i> {rftHoTen.Text} </i></li>";
-
-            kq += $"Tên Đăng Nhập : <li><i> {rftTendn.Text} </i></li>";
-
-            kq += $"Mật Khẩu : <li><i> {rfvMatKhau.Text} </i></li>";
+            kq += $"<li>Họ Tên: <i>{rftHoTen.Text}</i></li>";
+            kq += $"<li>Tên Đăng Nhập: <i>{rftTendn.Text}</i></li>";
+            kq += $"<li>Mật Khẩu: <i>{new string('*', rfvMatKhau.Text.Length)}</i></li>";  // Ẩn mật khẩu bằng ký tự *
+            kq += $"<li>Ngày Sinh: <i>{rfvNgay.SelectedValue}/{rfvThang.SelectedValue}/{rfvNam.SelectedValue}</i></li>";
             kq += "</ul>";
 
-            // b2. Hồi Đáp thông tin đăng ký
+            // Hồi đáp thông tin đăng ký
             KetQua.Text = kq;
         }
     }

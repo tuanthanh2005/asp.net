@@ -5,7 +5,7 @@
 <head runat="server">
     <title>Đăng Ký Thông Tin</title>
     <!-- Liên kết tới thư viện Bootstrap cho thiết kế giao diện đẹp và dễ sử dụng -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <style>
         /* Tạo khoảng cách giữa các phần trong form */
         .form-section {
@@ -17,13 +17,7 @@
             margin-bottom: 20px;
         }
         /* Thêm viền cho container */
-        .container {
-            box-sizing: border-box;  /* Đảm bảo padding và border không làm thay đổi kích thước */
-            border: 2px solid #007bff; /* Tạo viền màu xanh */
-            border-radius: 10px;    /* Bo tròn các góc */
-            padding: 20px;          /* Khoảng cách bên trong */
-            background-color: #f8f9fa; /* Màu nền nhạt */
-        }
+      
     </style>
 </head>
 <body>
@@ -38,7 +32,7 @@
             <div class="form-section">
                 <label for="txthoten" class="form-label">Khách Hàng:</label>
                 <!-- TextBox để nhập tên khách hàng -->
-                <asp:TextBox ID="txthoten" runat="server" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="txthoten" runat="server" CssClass="form-control" OnTextChanged="txthoten_TextChanged"></asp:TextBox>
             </div>
 
             <!-- Phần nhập địa chỉ -->

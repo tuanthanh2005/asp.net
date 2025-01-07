@@ -105,5 +105,10 @@ namespace BaitTap2
                 ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Đã xảy ra lỗi khi tạo hóa đơn: {ex.Message}');", true);
             }
         }
+
+        protected void txthoten_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

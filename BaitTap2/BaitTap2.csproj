@@ -125,6 +125,7 @@
     <Content Include="Images\User.gif" />
     <Content Include="Images\User_Deactive.gif" />
     <Content Include="Images\view.gif" />
+    <Content Include="KiemTraDieuKhien.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -145,6 +146,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="KiemTraDieuKhien.aspx.cs">
+      <DependentUpon>KiemTraDieuKhien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KiemTraDieuKhien.aspx.designer.cs">
+      <DependentUpon>KiemTraDieuKhien.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="thongtin.aspx.cs">

@@ -16,42 +16,57 @@ namespace BaitTap2
 
         private void KhoiTaoDuLieu()
         {
-            // Khởi tạo dữ liệu cho DropDownList Ngày
-            rfvNgay.Items.Add(new ListItem("-----Chọn Ngày-----", ""));
+            //khoi tao ddlNgay
+            ddlNgay.Items.Add(new ListItem("--Chọn ngày--", ""));
             for (int i = 1; i <= 31; i++)
             {
-                rfvNgay.Items.Add(new ListItem(i.ToString(), i.ToString()));
+                ddlNgay.Items.Add(new ListItem(i.ToString(), i.ToString()));
             }
-
-            // Khởi tạo dữ liệu cho DropDownList Tháng
-            rfvThang.Items.Add(new ListItem("-----Chọn Tháng-----", ""));
+            //khoi tao ddlThang
+            ddlThang.Items.Add(new ListItem("--Chọn tháng--", ""));
             for (int i = 1; i <= 12; i++)
             {
-                rfvThang.Items.Add(new ListItem(i.ToString(), i.ToString()));
+                ddlThang.Items.Add(new ListItem(i.ToString(), i.ToString()));
             }
 
-            // Khởi tạo dữ liệu cho DropDownList Năm
-            rfvNam.Items.Add(new ListItem("-----Chọn Năm-----", ""));
+            //khoi tao ddlNam
+            ddlNam.Items.Add(new ListItem("--Chọn năm--", ""));
             for (int i = 1970; i <= 2005; i++)
             {
-                rfvNam.Items.Add(new ListItem(i.ToString(), i.ToString()));
+                ddlNam.Items.Add(new ListItem(i.ToString(), i.ToString()));
             }
         }
 
-        protected void ButDangky_Click(object sender, EventArgs e)
+        protected void btDangKy_Click(object sender, EventArgs e)
         {
-          
-
-            // Lấy thông tin đăng ký từ client
+            // B1. Lấy thông tin đăng ký từ client
             string kq = "<ul>";
-            kq += $"<li>Họ Tên: <i>{rftHoTen.Text}</i></li>";
-            kq += $"<li>Tên Đăng Nhập: <i>{rftTendn.Text}</i></li>";
-            kq += $"<li>Mật Khẩu: <i>{new string('*', rfvMatKhau.Text.Length)}</i></li>";  // Ẩn mật khẩu bằng ký tự *
-            kq += $"<li>Ngày Sinh: <i>{rfvNgay.SelectedValue}/{rfvThang.SelectedValue}/{rfvNam.SelectedValue}</i></li>";
+            kq += $"<li> Họ tên: <i> {txtHoTen.Text}</i></li>";
+            kq += $"<li> Tên đăng nhập: <i> {txtTenDN.Text}</i></li>";
+            kq += $"<li> Mật khẩu: <i> {txtMatKhau.Text}</i></li>";
+
+            // Thêm thông tin ngày sinh
+            string ngaySinh = $"{ddlNgay.SelectedValue}/{ddlThang.SelectedValue}/{ddlNam.SelectedValue}";
+            if (!string.IsNullOrEmpty(ddlNgay.SelectedValue) && !string.IsNullOrEmpty(ddlThang.SelectedValue) && !string.IsNullOrEmpty(ddlNam.SelectedValue))
+            {
+                kq += $"<li> Ngày sinh: <i> {ngaySinh}</i></li>";
+            }
+            else
+            {
+                kq += "<li> Ngày sinh: <i>Chưa chọn</i></li>";
+            }
+
+            kq += $"<li> Email: <i> {txtEmail.Text}</i></li>";
+            kq += $"<li> Thu nhập: <i> {txtThuNhap.Text}</i></li>";
+            string gioiTinh = ckGioiTinh.Checked ? "Nam" : "Nữ";
+            kq += $"<li> Giới tính: <i> {gioiTinh}</i></li>";
+            kq += $"<li> Địa chỉ: <i> {txtDiaChi.Text}</i></li>";
+            kq += $"<li> Điện thoại: <i> {txtDienThoai.Text}</i></li>";
+
             kq += "</ul>";
 
-            // Hồi đáp thông tin đăng ký
-            KetQua.Text = kq;
+            // B2. Hồi đáp thông tin đăng ký
+            lbThongTin.Text = kq;
         }
     }
 }
